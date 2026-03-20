@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --color-troy-red: #B91C1C;
+  --color-troy-gold: #B45309;
+}
+
+body {
+  font-family: var(--font-sans);
+  @apply antialiased text-gray-900 bg-white;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, .heading-serif {
+  font-family: var(--font-serif);
+}
+
+.troy-gradient {
+  background: linear-gradient(135deg, #B91C1C 0%, #7F1D1D 100%);
+}
+
+.troy-glass {
+  @apply bg-white/80 backdrop-blur-md border border-white/20;
+}
