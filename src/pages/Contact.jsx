@@ -103,22 +103,6 @@ export default function Contact() {
         </div>
       </div>
 
-          <div className="max-w-4xl mx-auto space-y-4">
-            <div className="aspect-[21/9] bg-gray-200 shadow-sm overflow-hidden border border-gray-100">
-               {/* Placeholder for Google Map */}
-               <img 
-                 src="https://placehold.co/1200x500/e2e2e2/666666?text=Google+Maps+Location+SUN+Architecture" 
-                 alt="Location Map"
-                 className="w-full h-full object-cover"
-               />
-            </div>
-            <p className="text-[11px] text-gray-800">
-              <span className="font-bold">Văn phòng:</span> 189 Nguyễn Tất Thành, Quận Hải Châu, TP. Đà Nẵng
-            </p>
-          </div>
-        </div>
-      </div>
-
       <Footer />
     </MainLayout>
   );
